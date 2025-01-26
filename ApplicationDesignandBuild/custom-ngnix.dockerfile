@@ -6,7 +6,7 @@ LABEL maintainer="value"
 
 # Install the Nginx package from the Ubuntu repository
 RUN apt-get update
-RUN	apt-get install -y nginx && 
+RUN	apt-get install -y nginx
 	
 #Export the ports
 EXPOSE 80
